@@ -13,6 +13,9 @@
 		2E34204822ADFA7C0037765E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E34204722ADFA7C0037765E /* Assets.xcassets */; };
 		2E34204B22ADFA7C0037765E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E34204922ADFA7C0037765E /* LaunchScreen.storyboard */; };
 		2E34204E22ADFA7C0037765E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34204D22ADFA7C0037765E /* main.m */; };
+		2E3DD65E22AE36A40090A96C /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DD65D22AE36A40090A96C /* MovieViewController.m */; };
+		2E3DD66122AE36E10090A96C /* CinemaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DD66022AE36E10090A96C /* CinemaViewController.m */; };
+		2E3DD66422AE36EF0090A96C /* MeinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DD66322AE36EF0090A96C /* MeinViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		2E34204A22ADFA7C0037765E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E34204C22ADFA7C0037765E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E34204D22ADFA7C0037765E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E3DD65C22AE36A40090A96C /* MovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		2E3DD65D22AE36A40090A96C /* MovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		2E3DD65F22AE36E10090A96C /* CinemaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CinemaViewController.h; sourceTree = "<group>"; };
+		2E3DD66022AE36E10090A96C /* CinemaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinemaViewController.m; sourceTree = "<group>"; };
+		2E3DD66222AE36EF0090A96C /* MeinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeinViewController.h; sourceTree = "<group>"; };
+		2E3DD66322AE36EF0090A96C /* MeinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeinViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,9 @@
 		2E34203D22ADFA7A0037765E /* 维度电影 */ = {
 			isa = PBXGroup;
 			children = (
+				2E3DD65B22AE36820090A96C /* 电影 */,
+				2E3DD65A22AE36810090A96C /* 影院 */,
+				2E3DD65922AE367F0090A96C /* 我的 */,
 				2E34203E22ADFA7A0037765E /* AppDelegate.h */,
 				2E34203F22ADFA7A0037765E /* AppDelegate.m */,
 				2E34204122ADFA7A0037765E /* ViewController.h */,
@@ -69,6 +81,33 @@
 				2E34204D22ADFA7C0037765E /* main.m */,
 			);
 			path = "维度电影";
+			sourceTree = "<group>";
+		};
+		2E3DD65922AE367F0090A96C /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DD66222AE36EF0090A96C /* MeinViewController.h */,
+				2E3DD66322AE36EF0090A96C /* MeinViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		2E3DD65A22AE36810090A96C /* 影院 */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DD65F22AE36E10090A96C /* CinemaViewController.h */,
+				2E3DD66022AE36E10090A96C /* CinemaViewController.m */,
+			);
+			path = "影院";
+			sourceTree = "<group>";
+		};
+		2E3DD65B22AE36820090A96C /* 电影 */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DD65C22AE36A40090A96C /* MovieViewController.h */,
+				2E3DD65D22AE36A40090A96C /* MovieViewController.m */,
+			);
+			path = "电影";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +181,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E34204322ADFA7A0037765E /* ViewController.m in Sources */,
+				2E3DD66422AE36EF0090A96C /* MeinViewController.m in Sources */,
+				2E3DD66122AE36E10090A96C /* CinemaViewController.m in Sources */,
 				2E34204E22ADFA7C0037765E /* main.m in Sources */,
 				2E34204022ADFA7A0037765E /* AppDelegate.m in Sources */,
+				2E3DD65E22AE36A40090A96C /* MovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
