@@ -56,6 +56,15 @@
 		2E3DD65E22AE36A40090A96C /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DD65D22AE36A40090A96C /* MovieViewController.m */; };
 		2E3DD66122AE36E10090A96C /* CinemaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DD66022AE36E10090A96C /* CinemaViewController.m */; };
 		2E3DD66422AE36EF0090A96C /* MeinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DD66322AE36EF0090A96C /* MeinViewController.m */; };
+		E031328C22B09BB200EAF501 /* RecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E031328B22B09BB200EAF501 /* RecommendVC.m */; };
+		E031328F22B09BBE00EAF501 /* NearbyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E031328E22B09BBE00EAF501 /* NearbyVC.m */; };
+		E031329E22B09C6700EAF501 /* GYZChooseCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = E031329422B09C6700EAF501 /* GYZChooseCityController.m */; };
+		E031329F22B09C6700EAF501 /* GYZCityGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E031329522B09C6700EAF501 /* GYZCityGroupCell.m */; };
+		E03132A022B09C6700EAF501 /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E031329622B09C6700EAF501 /* CityData.plist */; };
+		E03132A122B09C6700EAF501 /* GYZCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E031329722B09C6700EAF501 /* GYZCityHeaderView.m */; };
+		E03132A222B09C6700EAF501 /* GYZCity.m in Sources */ = {isa = PBXBuildFile; fileRef = E031329822B09C6700EAF501 /* GYZCity.m */; };
+		E03132A822B09C7200EAF501 /* MCPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E03132A622B09C7200EAF501 /* MCPageView.m */; };
+		E03132A922B09C7200EAF501 /* UIView+QQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E03132A722B09C7200EAF501 /* UIView+QQFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +125,25 @@
 		2E3DD66022AE36E10090A96C /* CinemaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinemaViewController.m; sourceTree = "<group>"; };
 		2E3DD66222AE36EF0090A96C /* MeinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeinViewController.h; sourceTree = "<group>"; };
 		2E3DD66322AE36EF0090A96C /* MeinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeinViewController.m; sourceTree = "<group>"; };
+		E031328A22B09BB200EAF501 /* RecommendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendVC.h; sourceTree = "<group>"; };
+		E031328B22B09BB200EAF501 /* RecommendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendVC.m; sourceTree = "<group>"; };
+		E031328D22B09BBE00EAF501 /* NearbyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NearbyVC.h; sourceTree = "<group>"; };
+		E031328E22B09BBE00EAF501 /* NearbyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyVC.m; sourceTree = "<group>"; };
+		E031329222B09C4B00EAF501 /* screenLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screenLayOut.h; sourceTree = "<group>"; };
+		E031329422B09C6700EAF501 /* GYZChooseCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZChooseCityController.m; sourceTree = "<group>"; };
+		E031329522B09C6700EAF501 /* GYZCityGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZCityGroupCell.m; sourceTree = "<group>"; };
+		E031329622B09C6700EAF501 /* CityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityData.plist; sourceTree = "<group>"; };
+		E031329722B09C6700EAF501 /* GYZCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZCityHeaderView.m; sourceTree = "<group>"; };
+		E031329822B09C6700EAF501 /* GYZCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZCity.m; sourceTree = "<group>"; };
+		E031329922B09C6700EAF501 /* GYZCityGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZCityGroupCell.h; sourceTree = "<group>"; };
+		E031329A22B09C6700EAF501 /* GYZChooseCityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZChooseCityDelegate.h; sourceTree = "<group>"; };
+		E031329B22B09C6700EAF501 /* GYZChooseCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZChooseCityController.h; sourceTree = "<group>"; };
+		E031329C22B09C6700EAF501 /* GYZCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZCityHeaderView.h; sourceTree = "<group>"; };
+		E031329D22B09C6700EAF501 /* GYZCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZCity.h; sourceTree = "<group>"; };
+		E03132A422B09C7200EAF501 /* UIView+QQFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QQFrame.h"; sourceTree = "<group>"; };
+		E03132A522B09C7200EAF501 /* MCPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPageView.h; sourceTree = "<group>"; };
+		E03132A622B09C7200EAF501 /* MCPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPageView.m; sourceTree = "<group>"; };
+		E03132A722B09C7200EAF501 /* UIView+QQFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QQFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +363,8 @@
 				2E3DD65922AE367F0090A96C /* 我的 */,
 				2E34203E22ADFA7A0037765E /* AppDelegate.h */,
 				2E34203F22ADFA7A0037765E /* AppDelegate.m */,
+				E031329122B09BDD00EAF501 /* 适配文件 */,
+				E031329022B09BDB00EAF501 /* SDK */,
 				2E34204122ADFA7A0037765E /* ViewController.h */,
 				2E34204222ADFA7A0037765E /* ViewController.m */,
 				2E34204422ADFA7A0037765E /* Main.storyboard */,
@@ -360,6 +390,9 @@
 			children = (
 				2E3DD65F22AE36E10090A96C /* CinemaViewController.h */,
 				2E3DD66022AE36E10090A96C /* CinemaViewController.m */,
+				E031328922B09B8A00EAF501 /* M */,
+				E031328822B09B8900EAF501 /* V */,
+				E031328722B09B8800EAF501 /* C */,
 			);
 			path = "影院";
 			sourceTree = "<group>";
@@ -374,6 +407,76 @@
 				2E3DD65D22AE36A40090A96C /* MovieViewController.m */,
 			);
 			path = "电影";
+			sourceTree = "<group>";
+		};
+		E031328722B09B8800EAF501 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E031328A22B09BB200EAF501 /* RecommendVC.h */,
+				E031328B22B09BB200EAF501 /* RecommendVC.m */,
+				E031328D22B09BBE00EAF501 /* NearbyVC.h */,
+				E031328E22B09BBE00EAF501 /* NearbyVC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		E031328822B09B8900EAF501 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		E031328922B09B8A00EAF501 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		E031329022B09BDB00EAF501 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				E03132A322B09C7200EAF501 /* MCPageView */,
+				E031329322B09C6700EAF501 /* GYZChooseCity */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		E031329122B09BDD00EAF501 /* 适配文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E031329222B09C4B00EAF501 /* screenLayOut.h */,
+			);
+			path = "适配文件";
+			sourceTree = "<group>";
+		};
+		E031329322B09C6700EAF501 /* GYZChooseCity */ = {
+			isa = PBXGroup;
+			children = (
+				E031329422B09C6700EAF501 /* GYZChooseCityController.m */,
+				E031329522B09C6700EAF501 /* GYZCityGroupCell.m */,
+				E031329622B09C6700EAF501 /* CityData.plist */,
+				E031329722B09C6700EAF501 /* GYZCityHeaderView.m */,
+				E031329822B09C6700EAF501 /* GYZCity.m */,
+				E031329922B09C6700EAF501 /* GYZCityGroupCell.h */,
+				E031329A22B09C6700EAF501 /* GYZChooseCityDelegate.h */,
+				E031329B22B09C6700EAF501 /* GYZChooseCityController.h */,
+				E031329C22B09C6700EAF501 /* GYZCityHeaderView.h */,
+				E031329D22B09C6700EAF501 /* GYZCity.h */,
+			);
+			path = GYZChooseCity;
+			sourceTree = "<group>";
+		};
+		E03132A322B09C7200EAF501 /* MCPageView */ = {
+			isa = PBXGroup;
+			children = (
+				E03132A422B09C7200EAF501 /* UIView+QQFrame.h */,
+				E03132A522B09C7200EAF501 /* MCPageView.h */,
+				E03132A622B09C7200EAF501 /* MCPageView.m */,
+				E03132A722B09C7200EAF501 /* UIView+QQFrame.m */,
+			);
+			path = MCPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,6 +578,7 @@
 				2E019A6222B0A17E00DDAA91 /* 4444.png in Resources */,
 				2E34204822ADFA7C0037765E /* Assets.xcassets in Resources */,
 				2E34204622ADFA7A0037765E /* Main.storyboard in Resources */,
+				E03132A022B09C6700EAF501 /* CityData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
