@@ -8,6 +8,7 @@
 
 #import "MovieViewController.h"
 #import "LQScrollView.h"
+#import "ReviewViewController.h"
 @interface MovieViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView*tab;
 @end
@@ -20,7 +21,7 @@
         _tab=[[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
         _tab.delegate=self;
         _tab.dataSource=self;
-//        _tab.separatorStyle=UITableViewCellSeparatorStyleNone;
+        _tab.separatorStyle=UITableViewCellSeparatorStyleNone;
         _tab.backgroundColor=[UIColor clearColor];
     }
     return _tab;
@@ -31,10 +32,11 @@
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell*cell=[tableView dequeueReusableCellWithIdentifier:@"cell"];
+     static NSString *CellIdentifier = @"Cell";
+    UITableViewCell*cell=[tableView cellForRowAtIndexPath:indexPath];
     if (!cell)
     {
-        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     cell.backgroundColor=[UIColor clearColor];
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
@@ -72,17 +74,17 @@
 
     }else if (indexPath.row==5)
     {
-//        UIButton*btn=[[UIButton alloc]initWithFrame:CGRectMake(10, 10, 100, 40)];
-//        [btn setTitle:@"即将上映" forState:UIControlStateNormal];
-//        [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-//        [cell addSubview:btn];
-//        UIImageView*i=[[UIImageView alloc]initWithFrame:CGRectMake(22 , 50, 50, 10)];
-//        i.image=[UIImage imageNamed:@"choose_seat_soldout.png"];
-//        [cell addSubview:i];
+        UIButton*btn=[[UIButton alloc]initWithFrame:CGRectMake(10, 10, 100, 40)];
+        [btn setTitle:@"即将上映" forState:UIControlStateNormal];
+        [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [cell addSubview:btn];
+        UIImageView*i=[[UIImageView alloc]initWithFrame:CGRectMake(22 , 50, 50, 10)];
+        i.image=[UIImage imageNamed:@"choose_seat_soldout.png"];
+        [cell addSubview:i];
 
     }else
     {
-
+        
     }
     return cell;
 }
@@ -110,6 +112,14 @@
     }else
     {
         return 200;
+    }
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row==1)
+    {
+        ReviewViewController*review=[ReviewViewController new];
+        [self presentViewController:review animated:YES completion:nil];
     }
 }
 - (void)viewDidLoad {
