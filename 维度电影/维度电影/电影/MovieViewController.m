@@ -56,6 +56,7 @@
         UIImageView*i=[[UIImageView alloc]initWithFrame:CGRectMake(22 , 50, 50, 10)];
         i.image=[UIImage imageNamed:@"choose_seat_soldout.png"];
         [cell addSubview:i];
+        cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     }
     else if (indexPath.row==2)
     {
@@ -69,6 +70,7 @@
         UIImageView*i=[[UIImageView alloc]initWithFrame:CGRectMake(22 , 50, 50, 10)];
         i.image=[UIImage imageNamed:@"choose_seat_soldout.png"];
         [cell addSubview:i];
+        cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     }else if (indexPath.row==4)
     {
 
@@ -81,6 +83,7 @@
         UIImageView*i=[[UIImageView alloc]initWithFrame:CGRectMake(22 , 50, 50, 10)];
         i.image=[UIImage imageNamed:@"choose_seat_soldout.png"];
         [cell addSubview:i];
+        cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
 
     }else
     {
@@ -117,6 +120,14 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row==1)
+    {
+        ReviewViewController*review=[ReviewViewController new];
+        [self presentViewController:review animated:YES completion:nil];
+    }else if (indexPath.row==3)
+    {
+        ReviewViewController*review=[ReviewViewController new];
+        [self presentViewController:review animated:YES completion:nil];
+    }else if (indexPath.row==5)
     {
         ReviewViewController*review=[ReviewViewController new];
         [self presentViewController:review animated:YES completion:nil];
