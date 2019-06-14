@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582194460.1350729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582194460.135172"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582194460.135246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RecommendVC loadData]"
+                  moduleName = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuzhuang/Desktop/weidu/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E5%BD%B1%E9%99%A2/%E6%8E%A8%E8%8D%90%E5%BD%B1%E9%99%A2/C/RecommendVC.m"
+                  timestampString = "582192968.174005"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__23-[RecommendVC loadData]_block_invoke"
+                  moduleName = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuzhuang/Desktop/weidu/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E5%BD%B1%E9%99%A2/%E6%8E%A8%E8%8D%90%E5%BD%B1%E9%99%A2/C/RecommendVC.m"
+                  timestampString = "582192968.175997"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuzhuang/Desktop/weidu/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E5%BD%B1%E9%99%A2/%E6%8E%A8%E8%8D%90%E5%BD%B1%E9%99%A2/C/RecommendVC.m"
+                  timestampString = "582192968.1788"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
