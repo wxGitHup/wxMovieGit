@@ -35,7 +35,7 @@
 -(UILabel *)nameLabel{
     if (_nameLabel == nil) {
         
-        _nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 10, 100, 40)];
+        _nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 10, 200, 40)];
         _nameLabel.font = [UIFont systemFontOfSize:15];
         _nameLabel.textColor = [UIColor blackColor];
     }
@@ -44,9 +44,10 @@
 
 -(UILabel *)AddressLabel{
     if (_AddressLabel == nil) {
-        _AddressLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 60, 150, 30)];
+        _AddressLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 60, 230, 60)];
         _AddressLabel.font = [UIFont systemFontOfSize:13];
         _AddressLabel.textColor = [UIColor lightGrayColor];
+        _AddressLabel.lineBreakMode = NSLineBreakByWordWrapping;
         _AddressLabel.numberOfLines = 0;
     }
     return _AddressLabel;
@@ -66,8 +67,8 @@
 -(UIButton *)LoveBtn{
     if (_LoveBtn == nil) {
         _LoveBtn = [[UIButton alloc]initWithFrame:CGRectMake(SCR_W-40, 100, 30, 30)];
-        [_LoveBtn setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
-        [_LoveBtn setImage:[UIImage imageNamed:@""] forState:UIControlStateSelected];
+        [_LoveBtn setImage:[UIImage imageNamed:@"dianzan"] forState:UIControlStateNormal];
+        [_LoveBtn setImage:[UIImage imageNamed:@"dianzan-2"] forState:UIControlStateSelected];
     }
     return _LoveBtn;
 }
