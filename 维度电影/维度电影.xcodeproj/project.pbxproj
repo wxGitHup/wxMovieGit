@@ -69,16 +69,13 @@
 		E03132A122B09C6700EAF501 /* GYZCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E031329722B09C6700EAF501 /* GYZCityHeaderView.m */; };
 		E03132A222B09C6700EAF501 /* GYZCity.m in Sources */ = {isa = PBXBuildFile; fileRef = E031329822B09C6700EAF501 /* GYZCity.m */; };
 		E03132A822B09C7200EAF501 /* MCPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E03132A622B09C7200EAF501 /* MCPageView.m */; };
-		E03132A922B09C7200EAF501 /* UIView+QQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E03132A722B09C7200EAF501 /* UIView+QQFrame.m */; };
 		E03132AC22B0D42200EAF501 /* RecommendMD.m in Sources */ = {isa = PBXBuildFile; fileRef = E03132AB22B0D42200EAF501 /* RecommendMD.m */; };
 		E03132AF22B0D4DE00EAF501 /* RecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E03132AE22B0D4DE00EAF501 /* RecommendCell.m */; };
+		E0DC726B22B244730011A316 /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F6522B1D32B00E60A8D /* ReviewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A81B87A9C1722FF550BBB0A /* libPods-维度电影.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-维度电影.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
 		2E019A0822B0A06C00DDAA91 /* LQScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQScrollView.h; sourceTree = "<group>"; };
 		2E019A0922B0A06C00DDAA91 /* LQScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQScrollView.m; sourceTree = "<group>"; };
 		2E019A0E22B0A17E00DDAA91 /* my_icon_version_default_xhdpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_icon_version_default_xhdpi.png; sourceTree = "<group>"; };
@@ -391,7 +388,6 @@
 				2E34204222ADFA7A0037765E /* ViewController.m */,
 				2E34204422ADFA7A0037765E /* Main.storyboard */,
 				2E34204722ADFA7C0037765E /* Assets.xcassets */,
-				0404D27022B1D56100E32C1E /* 21394.imageset */,
 				2E34204922ADFA7C0037765E /* LaunchScreen.storyboard */,
 				2E34204C22ADFA7C0037765E /* Info.plist */,
 				2E34204D22ADFA7C0037765E /* main.m */,
@@ -649,10 +645,8 @@
 				2E019A6022B0A17E00DDAA91 /* 71212.png in Resources */,
 				2E019A4822B0A17E00DDAA91 /* 2.png in Resources */,
 				2E019A6222B0A17E00DDAA91 /* 4444.png in Resources */,
-				2E072F7822B1D5EF00E60A8D /* com_icon_return_default.png in Resources */,
 				2E34204822ADFA7C0037765E /* Assets.xcassets in Resources */,
 				2E34204622ADFA7A0037765E /* Main.storyboard in Resources */,
-				0404D27322B1D56100E32C1E /* 21394.jpg in Resources */,
 				E03132A022B09C6700EAF501 /* CityData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,9 +683,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DC726B22B244730011A316 /* ReviewViewController.m in Sources */,
 				2E64F52A22B0E3BC00E84216 /* UIView+QQFrame.m in Sources */,
 				2E64F52B22B0E3BC00E84216 /* GYZCityGroupCell.m in Sources */,
-				2E072F6622B1D32B00E60A8D /* ReviewViewController.m in Sources */,
 				2E64F52C22B0E3BC00E84216 /* GYZCityHeaderView.m in Sources */,
 				2E64F52D22B0E3BC00E84216 /* GYZCity.m in Sources */,
 				2E64F52822B0E38000E84216 /* MCPageView.m in Sources */,
@@ -700,7 +694,6 @@
 				2E64F52722B0E33600E84216 /* NearbyVC.m in Sources */,
 				2E34204322ADFA7A0037765E /* ViewController.m in Sources */,
 				2E3DD66422AE36EF0090A96C /* MeinViewController.m in Sources */,
-				E031329E22B09C6700EAF501 /* GYZChooseCityController.m in Sources */,
 				E03132A822B09C7200EAF501 /* MCPageView.m in Sources */,
 				E03132AF22B0D4DE00EAF501 /* RecommendCell.m in Sources */,
 				2E3DD66122AE36E10090A96C /* CinemaViewController.m in Sources */,
@@ -709,7 +702,6 @@
 				2E019A0A22B0A06C00DDAA91 /* LQScrollView.m in Sources */,
 				2E3DD65E22AE36A40090A96C /* MovieViewController.m in Sources */,
 				E03132A122B09C6700EAF501 /* GYZCityHeaderView.m in Sources */,
-				E031328F22B09BBE00EAF501 /* NearbyVC.m in Sources */,
 				E03132AC22B0D42200EAF501 /* RecommendMD.m in Sources */,
 				E03132A222B09C6700EAF501 /* GYZCity.m in Sources */,
 			);

@@ -72,9 +72,9 @@
     return _LoveBtn;
 }
 
--(void)SetCelldataWithModel:(RecommendMD *)md{
+-(void)SetCelldataWithModel:(Details *)md{
     
-    self.LogoImg.image = [UIImage imageNamed:md.logo];
+    self.LogoImg.image = [UIImage imageNamed:md.logo]; 
     
     self.nameLabel.text = md.name;
     

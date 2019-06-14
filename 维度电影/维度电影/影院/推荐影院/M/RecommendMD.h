@@ -7,10 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "MJExtension.h"
 NS_ASSUME_NONNULL_BEGIN
-
+@class Details;
 @interface RecommendMD : NSObject
+
+@property (nonatomic,strong)NSString *status;
+@property (nonatomic,strong)NSString *message;
+@property (nonatomic,strong)NSArray<Details *>*result;
+
+@end
+
+
+@interface Details : NSObject
 @property(nonatomic,assign)int id;//影院ID
 @property(nonatomic,strong)NSString * address;//影院地址
 @property(nonatomic,assign)int followCinema;//是否关注
@@ -18,15 +27,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)NSString * logo;//影院logo
 @property(nonatomic,assign)int commentTotal;//影院评论数
 @property(nonatomic,assign)int distance;//影院距离
-@property(nonatomic,assign)int userId;//用户登录信息
-@property(nonatomic,strong)NSString * sessionId;//登录凭证
-@property(nonatomic,assign)int page;
-@property(nonatomic,assign)int count;
-@property(nonatomic,strong)NSString * status;//请求状态
-@property(nonatomic,strong)NSString * message;//提示消息
-
-
-
 @end
 
 NS_ASSUME_NONNULL_END

@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)UILabel * GapLabel;
 @property(nonatomic,strong)UIButton * LoveBtn;
 
--(void)SetCelldataWithModel:(RecommendMD *)md;
+-(void)SetCelldataWithModel:(Details *)md;
 
 @end
 

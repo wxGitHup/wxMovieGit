@@ -13,6 +13,9 @@
 #import "AFNetworking.h"
 #import "MJExtension.h"
 @interface RecommendVC ()<UITableViewDelegate,UITableViewDataSource>
+{
+    RecommendMD * recoMD;
+}
 @property(nonatomic,strong)UITableView * tab;
 @property(nonatomic,strong)NSMutableArray * Array;
 @end
@@ -28,12 +31,14 @@
     
     self.Array = [NSMutableArray array];
     
+    [self loadData];
+    
 }
 
 -(UITableView *)tab{
     if (_tab == nil) {
         
-        _tab = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStyleGrouped];
+        _tab = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
         
         _tab.delegate = self;
         
@@ -48,14 +53,14 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return self.Array.count;
+    return recoMD.result.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     RecommendCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     
-    RecommendMD * md = self.Array[indexPath.row];
+    Details * md = recoMD.result[indexPath.row];
     
     [cell SetCelldataWithModel:md];
     
@@ -67,21 +72,43 @@
 
 -(void)loadData{
     
-    [self.Array removeAllObjects];
+   // [self.Array removeAllObjects];
     
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
     
-    [manager GET:@"http://172.17.8.100/movieApi/cinema/v1/findRecommendCinemas" parameters:@{@"id":[NSNumber numberWithInt:0],@"logo":self.LogoImg,@"address":self.AddressLabel.text,@"followCinema":[NSNumber numberWithInt:2],@"name":self.nameLabel.text,@"distance":self.GapLabel.text} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    [manager GET:@"http://172.17.8.100/movieApi/cinema/v1/findRecommendCinemas" parameters:@{@"userId":@(18),@"sessionId":@"15320748258726",@"page":@(1),@"count":@(10)} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
-        NSDictionary * dic = responseObject;
-        NSDictionary * dic1 = dic[@"result"];
+       // NSLog(@"%@",responseObject);
         
+        NSDictionary * json = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
+        NSLog(@"%@",json);
+        
+        self->recoMD = [RecommendMD mj_objectWithKeyValues:json];
+        
+        [self.tab reloadData];
+        
+//        NSArray * arr = json[@"result"];
+//
+//        for (NSDictionary * dic in arr) {
+//
+//
+//        }
+//
         
         
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
+        NSLog(@"error===%ld",(long)error.code);
+        
     }];
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
 }
 
 @end
