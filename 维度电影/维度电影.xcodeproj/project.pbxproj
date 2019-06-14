@@ -48,6 +48,8 @@
 		2E019A6722B0A17E00DDAA91 /* 34.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E019A4022B0A17E00DDAA91 /* 34.png */; };
 		2E019A6822B0A17E00DDAA91 /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E019A4222B0A17E00DDAA91 /* 33.png */; };
 		2E019A6A22B0A92700DDAA91 /* choose_seat_soldout.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E019A6922B0A92700DDAA91 /* choose_seat_soldout.png */; };
+		2E072F7922B227AF00E60A8D /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F6522B1D32B00E60A8D /* ReviewViewController.m */; };
+		2E072F7E22B3342900E60A8D /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F7D22B3342900E60A8D /* MovieModel.m */; };
 		2E34204022ADFA7A0037765E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34203F22ADFA7A0037765E /* AppDelegate.m */; };
 		2E34204322ADFA7A0037765E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34204222ADFA7A0037765E /* ViewController.m */; };
 		2E34204622ADFA7A0037765E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E34204422ADFA7A0037765E /* Main.storyboard */; };
@@ -120,6 +122,8 @@
 		2E072F6422B1D32B00E60A8D /* ReviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewViewController.h; sourceTree = "<group>"; };
 		2E072F6522B1D32B00E60A8D /* ReviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewViewController.m; sourceTree = "<group>"; };
 		2E072F7722B1D5EF00E60A8D /* com_icon_return_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com_icon_return_default.png; sourceTree = "<group>"; };
+		2E072F7C22B3342900E60A8D /* MovieModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
+		2E072F7D22B3342900E60A8D /* MovieModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
 		2E34203B22ADFA7A0037765E /* 维度电影.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "维度电影.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E34203E22ADFA7A0037765E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E34203F22ADFA7A0037765E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -358,6 +362,22 @@
 			path = hdpi;
 			sourceTree = "<group>";
 		};
+		2E072F7A22B3340300E60A8D /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		2E072F7B22B3340600E60A8D /* M */ = {
+			isa = PBXGroup;
+			children = (
+				2E072F7C22B3342900E60A8D /* MovieModel.h */,
+				2E072F7D22B3342900E60A8D /* MovieModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
 		2E34203222ADFA7A0037765E = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +403,8 @@
 				2E3DD65A22AE36810090A96C /* 影院 */,
 				2E3DD65922AE367F0090A96C /* 我的 */,
 				2E34203E22ADFA7A0037765E /* AppDelegate.h */,
+				E031329122B09BDD00EAF501 /* 适配文件 */,
+				E031329022B09BDB00EAF501 /* SDK */,
 				2E34203F22ADFA7A0037765E /* AppDelegate.m */,
 				2E34204122ADFA7A0037765E /* ViewController.h */,
 				2E34204222ADFA7A0037765E /* ViewController.m */,
@@ -419,8 +441,11 @@
 		2E3DD65B22AE36820090A96C /* 电影 */ = {
 			isa = PBXGroup;
 			children = (
+				2E072F7B22B3340600E60A8D /* M */,
+				2E072F7A22B3340300E60A8D /* V */,
 				2E019A0B22B0A17E00DDAA91 /* Image */,
 				2E019A0822B0A06C00DDAA91 /* LQScrollView.h */,
+				2E34203F22ADFA7A0037765E /* AppDelegate.m */,
 				2E019A0922B0A06C00DDAA91 /* LQScrollView.m */,
 				2E3DD65C22AE36A40090A96C /* MovieViewController.h */,
 				2E3DD65D22AE36A40090A96C /* MovieViewController.m */,
@@ -683,7 +708,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DC726B22B244730011A316 /* ReviewViewController.m in Sources */,
+
+
+				2E072F7922B227AF00E60A8D /* ReviewViewController.m in Sources */,
+
 				2E64F52A22B0E3BC00E84216 /* UIView+QQFrame.m in Sources */,
 				2E64F52B22B0E3BC00E84216 /* GYZCityGroupCell.m in Sources */,
 				2E64F52C22B0E3BC00E84216 /* GYZCityHeaderView.m in Sources */,
@@ -692,6 +720,7 @@
 				2E64F52922B0E38000E84216 /* GYZChooseCityController.m in Sources */,
 				2E64F52622B0E33600E84216 /* RecommendVC.m in Sources */,
 				2E64F52722B0E33600E84216 /* NearbyVC.m in Sources */,
+				2E072F7E22B3342900E60A8D /* MovieModel.m in Sources */,
 				2E34204322ADFA7A0037765E /* ViewController.m in Sources */,
 				2E3DD66422AE36EF0090A96C /* MeinViewController.m in Sources */,
 				E03132A822B09C7200EAF501 /* MCPageView.m in Sources */,
