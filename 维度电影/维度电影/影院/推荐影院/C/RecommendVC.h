@@ -11,7 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RecommendVC : UIViewController
-
+@property(nonatomic,strong)UIImageView * LogoImg;
+@property(nonatomic,strong)UILabel * nameLabel;
+@property(nonatomic,strong)UILabel * AddressLabel;
+@property(nonatomic,strong)UILabel * GapLabel;
+@property(nonatomic,strong)UIButton * LoveBtn;
 @end
 
 NS_ASSUME_NONNULL_END
