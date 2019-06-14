@@ -1,5 +1,5 @@
 //
-//  MovieModel.h
+//  ZModel.h
 //  维度电影
 //
 //  Created by 王翔 on 2019/6/14.
@@ -9,21 +9,19 @@
 #import <Foundation/Foundation.h>
 #import "MJExtension.h"
 NS_ASSUME_NONNULL_BEGIN
-@class Res;
-@interface MovieModel : NSObject
+@class ReleaseRes;
+
+@interface ZModel : NSObject
 @property(nonatomic,strong)NSString * status;
 @property(nonatomic,strong)NSString*message;
-@property(nonatomic,strong)NSArray<Res*>*result;
+@property(nonatomic,strong)NSArray<ReleaseRes*>*result;
 @end
-
-@interface  Res:NSObject
+@interface  ReleaseRes:NSObject
 @property(nonatomic,assign)BOOL followMovie;
 @property(nonatomic,assign)int id;
 @property(nonatomic,strong)NSString*imageUrl;
 @property(nonatomic,strong)NSString*name;
 @property(nonatomic,strong)NSString*summary;
+@property(nonatomic,strong)NSString*releaseTimeShow;
 @end
-
-
-
 NS_ASSUME_NONNULL_END

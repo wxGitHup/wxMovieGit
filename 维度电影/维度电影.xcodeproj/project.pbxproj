@@ -51,6 +51,8 @@
 		2E072F7E22B3342900E60A8D /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F7D22B3342900E60A8D /* MovieModel.m */; };
 		2E072F8222B3834500E60A8D /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F8022B3834500E60A8D /* CollectionViewCell.m */; };
 		2E072F8322B3834500E60A8D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E072F8122B3834500E60A8D /* CollectionViewCell.xib */; };
+		2E072F8622B3911600E60A8D /* ZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F8522B3911600E60A8D /* ZModel.m */; };
+		2E072F8922B3912100E60A8D /* JModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F8822B3912100E60A8D /* JModel.m */; };
 		2E34204022ADFA7A0037765E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34203F22ADFA7A0037765E /* AppDelegate.m */; };
 		2E34204322ADFA7A0037765E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34204222ADFA7A0037765E /* ViewController.m */; };
 		2E34204622ADFA7A0037765E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E34204422ADFA7A0037765E /* Main.storyboard */; };
@@ -124,6 +126,10 @@
 		2E072F7F22B3834500E60A8D /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		2E072F8022B3834500E60A8D /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		2E072F8122B3834500E60A8D /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		2E072F8422B3911600E60A8D /* ZModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZModel.h; sourceTree = "<group>"; };
+		2E072F8522B3911600E60A8D /* ZModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZModel.m; sourceTree = "<group>"; };
+		2E072F8722B3912100E60A8D /* JModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JModel.h; sourceTree = "<group>"; };
+		2E072F8822B3912100E60A8D /* JModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JModel.m; sourceTree = "<group>"; };
 		2E34203B22ADFA7A0037765E /* 维度电影.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "维度电影.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E34203E22ADFA7A0037765E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E34203F22ADFA7A0037765E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -395,6 +401,10 @@
 			children = (
 				2E072F7C22B3342900E60A8D /* MovieModel.h */,
 				2E072F7D22B3342900E60A8D /* MovieModel.m */,
+				2E072F8422B3911600E60A8D /* ZModel.h */,
+				2E072F8522B3911600E60A8D /* ZModel.m */,
+				2E072F8722B3912100E60A8D /* JModel.h */,
+				2E072F8822B3912100E60A8D /* JModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -717,8 +727,10 @@
 				2E64F52C22B0E3BC00E84216 /* GYZCityHeaderView.m in Sources */,
 				2E64F52D22B0E3BC00E84216 /* GYZCity.m in Sources */,
 				2E64F52822B0E38000E84216 /* MCPageView.m in Sources */,
+				2E072F8622B3911600E60A8D /* ZModel.m in Sources */,
 				2E64F52922B0E38000E84216 /* GYZChooseCityController.m in Sources */,
 				2E64F52622B0E33600E84216 /* RecommendVC.m in Sources */,
+				2E072F8922B3912100E60A8D /* JModel.m in Sources */,
 				2E64F52722B0E33600E84216 /* NearbyVC.m in Sources */,
 				2E072F7E22B3342900E60A8D /* MovieModel.m in Sources */,
 				2E34204322ADFA7A0037765E /* ViewController.m in Sources */,
