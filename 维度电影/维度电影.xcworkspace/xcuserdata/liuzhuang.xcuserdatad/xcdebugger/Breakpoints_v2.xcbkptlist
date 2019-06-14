@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.766848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-tab"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.767336"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/main.m"
+            timestampString = "582109058.532563"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.767687"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "-tab"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.7679909"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-tab"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.768278"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-tableView:numberOfRowsInSection:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.768564"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.768841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "RecommendVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.769115"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.769389"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RecommendVC loadData]"
+                  moduleName = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuzhuang/Desktop/Movie/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E5%BD%B1%E9%99%A2/%E6%8E%A8%E8%8D%90%E5%BD%B1%E9%99%A2/C/RecommendVC.m"
+                  timestampString = "582170831.818966"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__23-[RecommendVC loadData]_block_invoke"
+                  moduleName = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuzhuang/Desktop/Movie/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E5%BD%B1%E9%99%A2/%E6%8E%A8%E8%8D%90%E5%BD%B1%E9%99%A2/C/RecommendVC.m"
+                  timestampString = "582170831.8217241"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuzhuang/Desktop/Movie/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E7%BB%B4%E5%BA%A6%E7%94%B5%E5%BD%B1/%E5%BD%B1%E9%99%A2/%E6%8E%A8%E8%8D%90%E5%BD%B1%E9%99%A2/C/RecommendVC.m"
+                  timestampString = "582170831.824797"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7ef4;&#x5ea6;&#x7535;&#x5f71;/&#x5f71;&#x9662;/&#x63a8;&#x8350;&#x5f71;&#x9662;/C/RecommendVC.m"
+            timestampString = "582170831.769659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
