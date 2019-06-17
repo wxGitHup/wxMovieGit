@@ -17,11 +17,14 @@
 #import "MovieModel.h"
 #import "ZModel.h"
 #import "JModel.h"
-@interface MovieViewController ()<UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+#import "GYZChooseCityController.h"
+@interface MovieViewController ()<UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,GYZChooseCityDelegate>
 {
     MovieModel * movieM;
     ZModel * ReleaseM;
     JModel * ComingM;
+     UIButton *chooseCityBtn;
+    
 }
 @property(nonatomic,strong)UITableView*tab;
 @property(nonatomic,strong)UICollectionView *collectionViewone;
@@ -58,6 +61,7 @@
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     if (indexPath.row==0)
     {
+       
         UIImageView*img=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 200)];
         img.image=[UIImage imageNamed:@"hdpimore.png"];
         [cell addSubview:img];
@@ -296,14 +300,17 @@
 {
     if (indexPath.row==1)
     {
+        NSLog(@"1");
         ReviewViewController*review=[ReviewViewController new];
         [self presentViewController:review animated:YES completion:nil];
     }else if (indexPath.row==3)
     {
+        NSLog(@"3");
         ReviewViewController*review=[ReviewViewController new];
         [self presentViewController:review animated:YES completion:nil];
     }else if (indexPath.row==5)
     {
+        NSLog(@"5");
         ReviewViewController*review=[ReviewViewController new];
         [self presentViewController:review animated:YES completion:nil];
     }
@@ -320,10 +327,50 @@
     NSMutableArray * arr = [NSMutableArray arrayWithObjects:@"1111111.png",@"2222.png",@"343434.png",@"4444.png",@"5555.png", nil];
     LQScrollView * lq = [[LQScrollView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300) imageArray:arr];
     [self.view addSubview:self.tab];
+    chooseCityBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 150)];
+    //    chooseCityBtn.center = self.view.center;
+    [chooseCityBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [chooseCityBtn setTitle:@"选择城市" forState:UIControlStateNormal];
+    [chooseCityBtn addTarget:self action:@selector(onClickChooseCity:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:chooseCityBtn];
+    
     [self.tab addSubview:lq];
     
+    
+}
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+- (void)onClickChooseCity:(id)sender {
+    
+    GYZChooseCityController *cityPickerVC = [[GYZChooseCityController alloc] init];
+    [cityPickerVC setDelegate:self];
+    
+    //    cityPickerVC.locationCityID = @"1400010000";
+    //    cityPickerVC.commonCitys = [[NSMutableArray alloc] initWithArray: @[@"1400010000", @"100010000"]];        // 最近访问城市，如果不设置，将自动管理
+    //    cityPickerVC.hotCitys = @[@"100010000", @"200010000", @"300210000", @"600010000", @"300110000"];
+    
+    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:cityPickerVC] animated:YES completion:^{
+        
+    }];
 }
 
+#pragma mark - GYZCityPickerDelegate
+- (void) cityPickerController:(GYZChooseCityController *)chooseCityController didSelectCity:(GYZCity *)city
+{
+    [chooseCityBtn setTitle:city.cityName forState:UIControlStateNormal];
+    [chooseCityController dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
+
+- (void) cityPickerControllerDidCancel:(GYZChooseCityController *)chooseCityController
+{
+    [chooseCityController dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
 /*
 #pragma mark - Navigation
 
