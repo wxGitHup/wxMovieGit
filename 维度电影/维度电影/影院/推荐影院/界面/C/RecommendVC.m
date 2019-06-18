@@ -68,8 +68,21 @@
     
     cell.LoveBtn.tag = indexPath.row;
     
+    [cell.LoveBtn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     
     return cell;
+}
+
+-(void)click:(UIButton *)sender{
+    
+    if ([_LoveBtn isSelected]) {
+        
+        [_LoveBtn setImage:[UIImage imageNamed:@"dianzan-2"] forState:UIControlStateSelected];
+    }else{
+        
+        [_LoveBtn setImage:[UIImage imageNamed:@"dianzan"] forState:UIControlStateNormal];
+        
+    }
 }
 
 
@@ -113,7 +126,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
+   
     
 }
 
