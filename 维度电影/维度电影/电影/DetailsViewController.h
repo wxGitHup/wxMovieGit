@@ -1,8 +1,8 @@
 //
-//  ReviewViewController.h
+//  DetailsViewController.h
 //  维度电影
 //
-//  Created by 王翔 on 2019/6/13.
+//  Created by 王翔 on 2019/6/18.
 //  Copyright © 2019年 Person. All rights reserved.
 //
 
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ReviewViewController : UIViewController
-
-@property(nonatomic,assign)int index;
+@interface DetailsViewController : UIViewController
 
 @end
 

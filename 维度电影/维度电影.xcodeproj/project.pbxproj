@@ -53,6 +53,10 @@
 		2E072F8322B3834500E60A8D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E072F8122B3834500E60A8D /* CollectionViewCell.xib */; };
 		2E072F8622B3911600E60A8D /* ZModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F8522B3911600E60A8D /* ZModel.m */; };
 		2E072F8922B3912100E60A8D /* JModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E072F8822B3912100E60A8D /* JModel.m */; };
+		2E131B4522B86950009260CD /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E131B4322B86950009260CD /* MyTableViewCell.m */; };
+		2E131B4622B86950009260CD /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E131B4422B86950009260CD /* MyTableViewCell.xib */; };
+		2E1FE8BB22B8CCC900DB6ED6 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE8B922B8CCC900DB6ED6 /* DetailsViewController.m */; };
+		2E1FE8BC22B8CCC900DB6ED6 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1FE8BA22B8CCC900DB6ED6 /* DetailsViewController.xib */; };
 		2E34204022ADFA7A0037765E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34203F22ADFA7A0037765E /* AppDelegate.m */; };
 		2E34204322ADFA7A0037765E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34204222ADFA7A0037765E /* ViewController.m */; };
 		2E34204622ADFA7A0037765E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E34204422ADFA7A0037765E /* Main.storyboard */; };
@@ -131,6 +135,12 @@
 		2E072F8522B3911600E60A8D /* ZModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZModel.m; sourceTree = "<group>"; };
 		2E072F8722B3912100E60A8D /* JModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JModel.h; sourceTree = "<group>"; };
 		2E072F8822B3912100E60A8D /* JModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JModel.m; sourceTree = "<group>"; };
+		2E131B4222B86950009260CD /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		2E131B4322B86950009260CD /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		2E131B4422B86950009260CD /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		2E1FE8B822B8CCC900DB6ED6 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		2E1FE8B922B8CCC900DB6ED6 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		2E1FE8BA22B8CCC900DB6ED6 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 		2E34203B22ADFA7A0037765E /* 维度电影.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "维度电影.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E34203E22ADFA7A0037765E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E34203F22ADFA7A0037765E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -395,6 +405,9 @@
 				2E072F7F22B3834500E60A8D /* CollectionViewCell.h */,
 				2E072F8022B3834500E60A8D /* CollectionViewCell.m */,
 				2E072F8122B3834500E60A8D /* CollectionViewCell.xib */,
+				2E131B4222B86950009260CD /* MyTableViewCell.h */,
+				2E131B4322B86950009260CD /* MyTableViewCell.m */,
+				2E131B4422B86950009260CD /* MyTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -482,6 +495,9 @@
 				2E3DD65D22AE36A40090A96C /* MovieViewController.m */,
 				2E072F6422B1D32B00E60A8D /* ReviewViewController.h */,
 				2E072F6522B1D32B00E60A8D /* ReviewViewController.m */,
+				2E1FE8B822B8CCC900DB6ED6 /* DetailsViewController.h */,
+				2E1FE8B922B8CCC900DB6ED6 /* DetailsViewController.m */,
+				2E1FE8BA22B8CCC900DB6ED6 /* DetailsViewController.xib */,
 			);
 			path = "电影";
 			sourceTree = "<group>";
@@ -736,10 +752,12 @@
 				2E019A4522B0A17E00DDAA91 /* my_icon_version_default_xxhdpi.png in Resources */,
 				2E019A5822B0A17E00DDAA91 /* hdpia.png in Resources */,
 				2E019A6A22B0A92700DDAA91 /* choose_seat_soldout.png in Resources */,
+				2E131B4622B86950009260CD /* MyTableViewCell.xib in Resources */,
 				2E019A5B22B0A17E00DDAA91 /* sj.jpg in Resources */,
 				2E019A4422B0A17E00DDAA91 /* 20.png in Resources */,
 				2E019A4B22B0A17E00DDAA91 /* 7.png in Resources */,
 				2E019A5922B0A17E00DDAA91 /* Bitmap.png in Resources */,
+				2E1FE8BC22B8CCC900DB6ED6 /* DetailsViewController.xib in Resources */,
 				2E019A4E22B0A17E00DDAA91 /* 899.png in Resources */,
 				2E019A4922B0A17E00DDAA91 /* 9996.png in Resources */,
 				2E34204B22ADFA7C0037765E /* LaunchScreen.storyboard in Resources */,
@@ -821,12 +839,14 @@
 				2E072F7E22B3342900E60A8D /* MovieModel.m in Sources */,
 				2E34204322ADFA7A0037765E /* ViewController.m in Sources */,
 				2E3DD66422AE36EF0090A96C /* MeinViewController.m in Sources */,
+				2E1FE8BB22B8CCC900DB6ED6 /* DetailsViewController.m in Sources */,
 				2E072F8222B3834500E60A8D /* CollectionViewCell.m in Sources */,
 				2E3DD66122AE36E10090A96C /* CinemaViewController.m in Sources */,
 				2E34204E22ADFA7C0037765E /* main.m in Sources */,
 				2E34204022ADFA7A0037765E /* AppDelegate.m in Sources */,
 				2E019A0A22B0A06C00DDAA91 /* LQScrollView.m in Sources */,
 				E0DC727722B384160011A316 /* RecommendMD.m in Sources */,
+				2E131B4522B86950009260CD /* MyTableViewCell.m in Sources */,
 				2E3DD65E22AE36A40090A96C /* MovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
