@@ -1,20 +1,19 @@
 //
-//  MovieModel.m
+//  JModel.m
 //  维度电影
 //
 //  Created by 王翔 on 2019/6/14.
 //  Copyright © 2019年 Person. All rights reserved.
 //
 
-#import "MovieModel.h"
+#import "JModel.h"
 
-@implementation MovieModel
+@implementation JModel
 +(NSDictionary *)mj_objectClassInArray
 {
-    return  @{@"result":@"Res"};
-   
+    return  @{@"result":@"Comingre"};
 }
 @end
-@implementation Res
+@implementation Comingre
 
 @end
