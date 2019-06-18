@@ -46,7 +46,7 @@
         
         _tab.dataSource = self;
         
-        _tab.rowHeight = 150;
+        _tab.rowHeight = 130;
         
         [_tab registerClass:[RecommendCell class] forCellReuseIdentifier:@"cell"];
     }
@@ -68,8 +68,21 @@
     
     cell.LoveBtn.tag = indexPath.row;
     
+    [cell.LoveBtn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     
     return cell;
+}
+
+-(void)click:(UIButton *)sender{
+    
+    if ([_LoveBtn isSelected]) {
+        
+        [_LoveBtn setImage:[UIImage imageNamed:@"dianzan-2"] forState:UIControlStateSelected];
+    }else{
+        
+        [_LoveBtn setImage:[UIImage imageNamed:@"dianzan"] forState:UIControlStateNormal];
+        
+    }
 }
 
 
@@ -112,6 +125,8 @@
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+   
     
 }
 

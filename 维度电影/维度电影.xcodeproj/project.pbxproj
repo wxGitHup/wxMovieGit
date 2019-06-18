@@ -555,6 +555,23 @@
 			path = MCPageView;
 			sourceTree = "<group>";
 		};
+		E07D1F5A22B8BFFD00E17975 /* 界面 */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC727322B384160011A316 /* M */,
+				E0DC727022B384160011A316 /* V */,
+				E031328722B09B8800EAF501 /* C */,
+			);
+			path = "界面";
+			sourceTree = "<group>";
+		};
+		E07D1F5B22B8C05300E17975 /* 详情 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "详情";
+			sourceTree = "<group>";
+		};
 		E0DC726C22B381D40011A316 /* 附近影院 */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,9 +582,8 @@
 		E0DC726D22B381D70011A316 /* 推荐影院 */ = {
 			isa = PBXGroup;
 			children = (
-				E0DC727322B384160011A316 /* M */,
-				E0DC727022B384160011A316 /* V */,
-				E031328722B09B8800EAF501 /* C */,
+				E07D1F5A22B8BFFD00E17975 /* 界面 */,
+				E07D1F5B22B8C05300E17975 /* 详情 */,
 			);
 			path = "推荐影院";
 			sourceTree = "<group>";

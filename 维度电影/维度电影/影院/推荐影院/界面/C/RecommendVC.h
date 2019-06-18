@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RecommendVC : UIViewController
-
+@property(nonatomic,strong)UIButton * LoveBtn;
 @end
 
 NS_ASSUME_NONNULL_END
