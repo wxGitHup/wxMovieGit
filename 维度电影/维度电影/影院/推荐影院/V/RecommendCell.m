@@ -8,6 +8,7 @@
 
 #import "RecommendCell.h"
 #import "screenLayOut.h"
+#import "UIImageView+WebCache.h"
 @implementation RecommendCell
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
@@ -27,7 +28,7 @@
 
 -(UIImageView *)LogoImg{
     if (_LogoImg == nil) {
-        _LogoImg = [[UIImageView alloc]initWithFrame:CGRectMake(10, 10, 80, 80)];
+        _LogoImg = [[UIImageView alloc]initWithFrame:CGRectMake(10, 10, 80, 120)];
     }
     return _LogoImg;
 }
@@ -35,7 +36,7 @@
 -(UILabel *)nameLabel{
     if (_nameLabel == nil) {
         
-        _nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 10, 200, 40)];
+        _nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 10, 200, 20)];
         _nameLabel.font = [UIFont systemFontOfSize:15];
         _nameLabel.textColor = [UIColor blackColor];
     }
@@ -44,7 +45,7 @@
 
 -(UILabel *)AddressLabel{
     if (_AddressLabel == nil) {
-        _AddressLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 60, 230, 60)];
+        _AddressLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 40, 230, 60)];
         _AddressLabel.font = [UIFont systemFontOfSize:13];
         _AddressLabel.textColor = [UIColor lightGrayColor];
         _AddressLabel.lineBreakMode = NSLineBreakByWordWrapping;
@@ -75,8 +76,8 @@
 
 -(void)SetCelldataWithModel:(Details *)md{
     
-    self.LogoImg.image = [UIImage imageNamed:md.logo]; 
-    
+
+    [_LogoImg sd_setImageWithURL:[NSURL URLWithString:md.logo] placeholderImage:nil];
     self.nameLabel.text = md.name;
     
     self.AddressLabel.text = md.address;

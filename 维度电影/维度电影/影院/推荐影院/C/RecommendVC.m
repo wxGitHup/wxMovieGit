@@ -46,7 +46,7 @@
         
         _tab.dataSource = self;
         
-        _tab.rowHeight = 150;
+        _tab.rowHeight = 130;
         
         [_tab registerClass:[RecommendCell class] forCellReuseIdentifier:@"cell"];
     }
@@ -112,6 +112,8 @@
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
     
 }
 
