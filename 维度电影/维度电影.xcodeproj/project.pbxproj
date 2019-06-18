@@ -72,6 +72,7 @@
 		2E64F52D22B0E3BC00E84216 /* GYZCity.m in Sources */ = {isa = PBXBuildFile; fileRef = E031329822B09C6700EAF501 /* GYZCity.m */; };
 		9A700B754EA8C4E5D91783DA /* libPods-维度电影.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E404ECD56833CD0BD36075C9 /* libPods-维度电影.a */; };
 		E03132A022B09C6700EAF501 /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E031329622B09C6700EAF501 /* CityData.plist */; };
+		E07D1F6722B8C7A200E17975 /* MovieCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E07D1F6622B8C7A200E17975 /* MovieCenterVC.m */; };
 		E0DC727622B384160011A316 /* RecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DC727222B384160011A316 /* RecommendCell.m */; };
 		E0DC727722B384160011A316 /* RecommendMD.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DC727522B384160011A316 /* RecommendMD.m */; };
 /* End PBXBuildFile section */
@@ -167,6 +168,8 @@
 		E03132A522B09C7200EAF501 /* MCPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPageView.h; sourceTree = "<group>"; };
 		E03132A622B09C7200EAF501 /* MCPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPageView.m; sourceTree = "<group>"; };
 		E03132A722B09C7200EAF501 /* UIView+QQFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QQFrame.m"; sourceTree = "<group>"; };
+		E07D1F6522B8C7A200E17975 /* MovieCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCenterVC.h; sourceTree = "<group>"; };
+		E07D1F6622B8C7A200E17975 /* MovieCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCenterVC.m; sourceTree = "<group>"; };
 		E0DC727122B384160011A316 /* RecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendCell.h; sourceTree = "<group>"; };
 		E0DC727222B384160011A316 /* RecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendCell.m; sourceTree = "<group>"; };
 		E0DC727422B384160011A316 /* RecommendMD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendMD.h; sourceTree = "<group>"; };
@@ -433,9 +436,9 @@
 				2E3DD65B22AE36820090A96C /* 电影 */,
 				2E3DD65A22AE36810090A96C /* 影院 */,
 				2E3DD65922AE367F0090A96C /* 我的 */,
-				2E34203E22ADFA7A0037765E /* AppDelegate.h */,
 				E031329122B09BDD00EAF501 /* 适配文件 */,
 				E031329022B09BDB00EAF501 /* SDK */,
+				2E34203E22ADFA7A0037765E /* AppDelegate.h */,
 				2E34204122ADFA7A0037765E /* ViewController.h */,
 				2E34204222ADFA7A0037765E /* ViewController.m */,
 				2E34204422ADFA7A0037765E /* Main.storyboard */,
@@ -549,11 +552,77 @@
 			path = "界面";
 			sourceTree = "<group>";
 		};
-		E07D1F5B22B8C05300E17975 /* 详情 */ = {
+		E07D1F5B22B8C05300E17975 /* 影院 */ = {
+			isa = PBXGroup;
+			children = (
+				E07D1F6022B8C66600E17975 /* 影院界面 */,
+				E07D1F6122B8C6DA00E17975 /* 详情、评论 */,
+			);
+			path = "影院";
+			sourceTree = "<group>";
+		};
+		E07D1F5C22B8C50200E17975 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E07D1F6522B8C7A200E17975 /* MovieCenterVC.h */,
+				E07D1F6622B8C7A200E17975 /* MovieCenterVC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		E07D1F5E22B8C50900E17975 /* V */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "详情";
+			path = V;
+			sourceTree = "<group>";
+		};
+		E07D1F5F22B8C50B00E17975 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		E07D1F6022B8C66600E17975 /* 影院界面 */ = {
+			isa = PBXGroup;
+			children = (
+				E07D1F5F22B8C50B00E17975 /* M */,
+				E07D1F5E22B8C50900E17975 /* V */,
+				E07D1F5C22B8C50200E17975 /* C */,
+			);
+			path = "影院界面";
+			sourceTree = "<group>";
+		};
+		E07D1F6122B8C6DA00E17975 /* 详情、评论 */ = {
+			isa = PBXGroup;
+			children = (
+				E07D1F6422B8C70700E17975 /* M */,
+				E07D1F6322B8C70600E17975 /* V */,
+				E07D1F6222B8C70200E17975 /* C */,
+			);
+			path = "详情、评论";
+			sourceTree = "<group>";
+		};
+		E07D1F6222B8C70200E17975 /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		E07D1F6322B8C70600E17975 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		E07D1F6422B8C70700E17975 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
 			sourceTree = "<group>";
 		};
 		E0DC726C22B381D40011A316 /* 附近影院 */ = {
@@ -567,7 +636,7 @@
 			isa = PBXGroup;
 			children = (
 				E07D1F5A22B8BFFD00E17975 /* 界面 */,
-				E07D1F5B22B8C05300E17975 /* 详情 */,
+				E07D1F5B22B8C05300E17975 /* 影院 */,
 			);
 			path = "推荐影院";
 			sourceTree = "<group>";
@@ -745,6 +814,7 @@
 				2E64F52822B0E38000E84216 /* MCPageView.m in Sources */,
 				2E072F8622B3911600E60A8D /* ZModel.m in Sources */,
 				2E64F52922B0E38000E84216 /* GYZChooseCityController.m in Sources */,
+				E07D1F6722B8C7A200E17975 /* MovieCenterVC.m in Sources */,
 				2E64F52622B0E33600E84216 /* RecommendVC.m in Sources */,
 				2E072F8922B3912100E60A8D /* JModel.m in Sources */,
 				2E64F52722B0E33600E84216 /* NearbyVC.m in Sources */,

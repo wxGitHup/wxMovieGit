@@ -12,6 +12,7 @@
 #import "RecommendMD.h"
 #import "AFNetworking.h"
 #import "MJExtension.h"
+#import "MovieCenterVC.h"
 @interface RecommendVC ()<UITableViewDelegate,UITableViewDataSource>
 {
     RecommendMD * recoMD;
@@ -126,9 +127,13 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-   
+    MovieCenterVC * movie = [MovieCenterVC new];
+    
+    [self presentViewController:movie animated:YES completion:nil];
     
 }
+
+
 
 
 @end
