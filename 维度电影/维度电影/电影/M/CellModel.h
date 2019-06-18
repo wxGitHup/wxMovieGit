@@ -1,15 +1,15 @@
 //
-//  MovieModel.h
+//  CellModel.h
 //  维度电影
 //
-//  Created by 王翔 on 2019/6/14.
+//  Created by 王翔 on 2019/6/18.
 //  Copyright © 2019年 Person. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "MJExtension.h"
-
 NS_ASSUME_NONNULL_BEGIN
+
 @class Res;
 @interface MovieModel : NSObject
 @property(nonatomic,strong)NSString * status;
@@ -24,7 +24,5 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)NSString*name;
 @property(nonatomic,strong)NSString*summary;
 @end
-
-
 
 NS_ASSUME_NONNULL_END

@@ -298,22 +298,37 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
+    
     if (indexPath.row==1)
     {
         NSLog(@"1");
         ReviewViewController*review=[ReviewViewController new];
+        review.index = 0;
         [self presentViewController:review animated:YES completion:nil];
     }else if (indexPath.row==3)
     {
         NSLog(@"3");
         ReviewViewController*review=[ReviewViewController new];
+        review.index = 1;
         [self presentViewController:review animated:YES completion:nil];
     }else if (indexPath.row==5)
     {
         NSLog(@"5");
         ReviewViewController*review=[ReviewViewController new];
+        review.index = 2;
         [self presentViewController:review animated:YES completion:nil];
     }
+//    NSDictionary *dict =[[NSDictionary alloc]initWithObjectsAndKeys:indexPath, nil];
+    
+    //创建通知
+    
+  //  NSNotification *notification =[NSNotification notificationWithName:@"tongzhi" object:nil userInfo:nil];
+    //通过通知中心发送通知
+    
+   // [[NSNotificationCenter defaultCenter] postNotification:notification];
+    
+    //[self.navigationController popViewControllerAnimated:YES];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
